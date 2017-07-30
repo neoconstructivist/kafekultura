@@ -7,11 +7,16 @@
     <title>#kafekultura</title>
     <%= stylesheet_link_tag "main" %>
   </head>
-  <body>
+  <body class="theme-nature">
     <main role="main">
+      <div id="background-container" class="background-container">
+        <div id="background-output" class="background-output"></div>
+      </div>
       <%= yield %>
     </main>
     <%= partial "partials/analytics" %>
-    <%= partial "partials/trianglify" %>
+    <%= javascript_include_tag "jquery-1.11.1.min" %>
+    <%= javascript_include_tag "flat-surface-shader" %>
+    <%= javascript_include_tag "shader" %>
   </body>
 </html>
