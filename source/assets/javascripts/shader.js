@@ -22,25 +22,25 @@ $(function() {
       },
 
       MESH: {
-        ambient: '#260de6', // Default 
-        diffuse: '#FFFFFF', // Default
-        width: 1.2, // Triangle Width
-        height: 1.2, // Triangle Height
-        depth: 10, // Transparency of the triangles
-        segments: 16, // Number of triangles to display in 1 row
-        slices: 8, // Number of triangles to display in 1 column
-        xRange: 0.8, // Wideness of the triangles in X Position
-        yRange: 0.1, // Wideness of the triangles in Y Position
+        ambient: '#ff8e8e', // Default 
+        diffuse: '#3967ff', // Default
+        width: 1.5, // Triangle Width
+        height: 1.4, // Triangle Height
+        depth: 34, // Transparency of the triangles
+        segments: 17, // Number of triangles to display in 1 row
+        slices: 7, // Number of triangles to display in 1 column
+        xRange: 1.0, // Wideness of the triangles in X Position
+        yRange: 0.15, // Wideness of the triangles in Y Position
         zRange: 1.0, // Wideness of the triangles in Z Position
-        speed: 0.002 // Speed of the moving traingles
+        speed: 0.0021 // Speed of the moving traingles
       },
 
       LIGHT: {
-        autopilot: true, // Set this to true if you want the light to follow your mouse cursor
-        ambient: '#880066',
-        diffuse: '#ff8800',
-        count: 2, // Contrast 
-        zOffset: 100,
+        autopilot: false, // Set this to true if you want the light to follow your mouse cursor
+        ambient: '#002789',
+        diffuse: '#ffffff',
+        count: 3, // Contrast 
+        zOffset: 39,
         xyScalar: 1,
         speed: 0.001,
         gravity: 1200,
