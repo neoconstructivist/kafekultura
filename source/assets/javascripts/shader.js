@@ -32,7 +32,7 @@ $(function() {
         xRange: 1.0, // Wideness of the triangles in X Position
         yRange: 0.15, // Wideness of the triangles in Y Position
         zRange: 1.0, // Wideness of the triangles in Z Position
-        speed: 0.0021 // Speed of the moving traingles
+        speed: 0.0012 // Speed of the moving traingles
       },
 
       LIGHT: {
